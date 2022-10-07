@@ -19,12 +19,12 @@ You can specify below environment variables.
 - `REGION` - AWS region of the Kinesis stream you want to publish.
 - `AWS_CONFIG` - You can specify as json object as given below. AWS account configuration of the Kinesis stream you want to publish.
   
-  ```json
+  ```js
    {
       REGION: "ap-southeast-1",
       ACCESS_KEY_ID: "xxxxx",
       SECRET_ACCESS_KEY: "xxxxxx",
-    }
+   }
   ```
 - `KINESIS_STREAM_NAME` - Stream name of the kinesis where you want to publish the data.
 - `LOG_LEVEL` - Log level as given in [pino](https://www.npmjs.com/package/pino).
