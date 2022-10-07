@@ -1,5 +1,10 @@
 # kinesis-dynamodb-stream-read
 
+## Diagram
+
+![kinesis-stream-read drawio](https://user-images.githubusercontent.com/79896922/194529244-044a8b0e-2e2a-4da7-b86d-3e86458938e5.png)
+
+
 ## Introduction
 
 This lambda can be used as an interface to process the kinesis stream attached to dynamodb table. This lambda will read the stream and publish the valid records to another kinesis stream which specified in config.
