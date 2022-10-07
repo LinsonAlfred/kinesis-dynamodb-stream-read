@@ -3,7 +3,6 @@ const envalid = require("envalid");
 const { str, json } = envalid;
 
 const env = envalid.cleanEnv(process.env, {
-  REGION: str({ default: "ap-southeast-1" }),
   AWS_CONFIG: json({
     default: {
       REGION: "ap-southeast-1",
