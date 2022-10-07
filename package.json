@@ -1,0 +1,23 @@
+{
+  "name": "kinesis-dynamodb-stream-read",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i ./tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.183.0",
+    "dynamo-stream-diff": "^0.1.0",
+    "envalid": "^7.3.1",
+    "lodash.get": "^4.4.2",
+    "pino": "^8.6.1",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1230.0",
+    "jest": "^29.1.2"
+  }
+}

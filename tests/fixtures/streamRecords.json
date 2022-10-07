@@ -1,0 +1,303 @@
+[
+  {
+    "metadata": { "key1": "key value 1", "key2": "key value 2" },
+    "SK": "3",
+    "PK": "10003",
+    "name": "test1",
+    "desc": "test desc 2"
+  },
+  {
+    "awsRegion": "ap-southeast-1",
+    "eventID": "979c6386-188d-4c79-96bb-a208810a4194",
+    "eventName": "INSERT",
+    "userIdentity": null,
+    "recordFormat": "application/json",
+    "tableName": "products",
+    "dynamodb": {
+      "ApproximateCreationDateTime": 1665112376192,
+      "Keys": { "PK": { "S": "10004" }, "SK": { "S": "4" } },
+      "NewImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "4" },
+        "PK": { "S": "10004" },
+        "name": { "S": "test3" },
+        "desc": { "S": "test desc 3" }
+      },
+      "SizeBytes": 87
+    },
+    "eventSource": "aws:dynamodb"
+  },
+  {
+    "awsRegion": "ap-southeast-1",
+    "eventID": "f41f866a-301d-42fa-a090-0826f7e89dd9",
+    "eventName": "MODIFY",
+    "userIdentity": null,
+    "recordFormat": "application/json",
+    "tableName": "products",
+    "dynamodb": {
+      "ApproximateCreationDateTime": 1665112853056,
+      "Keys": { "PK": { "S": "10004" }, "SK": { "S": "4" } },
+      "NewImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "4" },
+        "PK": { "S": "10004" },
+        "name": { "S": "test4" },
+        "desc": { "S": "test desc 3" }
+      },
+      "OldImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "4" },
+        "PK": { "S": "10004" },
+        "name": { "S": "test3" },
+        "desc": { "S": "test desc 3" }
+      },
+      "SizeBytes": 164
+    },
+    "eventSource": "aws:dynamodb"
+  },
+  {
+    "awsRegion": "ap-southeast-1",
+    "eventID": "63fc6a2b-5934-4223-8909-7f822e3d3a71",
+    "eventName": "INSERT",
+    "userIdentity": null,
+    "recordFormat": "application/json",
+    "tableName": "products",
+    "dynamodb": {
+      "ApproximateCreationDateTime": 1665113159873,
+      "Keys": { "PK": { "S": "10005" }, "SK": { "S": "5" } },
+      "NewImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "5" },
+        "PK": { "S": "10005" },
+        "name": { "S": "test4" },
+        "desc": { "S": "test desc 3" }
+      },
+      "SizeBytes": 87
+    },
+    "eventSource": "aws:dynamodb"
+  },
+  {
+    "awsRegion": "ap-southeast-1",
+    "eventID": "b9fd5c1c-2ee1-4f1c-bdc0-da56114af547",
+    "eventName": "MODIFY",
+    "userIdentity": null,
+    "recordFormat": "application/json",
+    "tableName": "products",
+    "dynamodb": {
+      "ApproximateCreationDateTime": 1665113437924,
+      "Keys": { "PK": { "S": "10005" }, "SK": { "S": "5" } },
+      "NewImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "5" },
+        "PK": { "S": "10005" },
+        "name": { "S": "test5" },
+        "desc": { "S": "test desc 3" }
+      },
+      "OldImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "5" },
+        "PK": { "S": "10005" },
+        "name": { "S": "test4" },
+        "desc": { "S": "test desc 3" }
+      },
+      "SizeBytes": 164
+    },
+    "eventSource": "aws:dynamodb"
+  },
+  {
+    "awsRegion": "ap-southeast-1",
+    "eventID": "7b849a80-1b29-4b54-8fdd-76881ec37050",
+    "eventName": "MODIFY",
+    "userIdentity": null,
+    "recordFormat": "application/json",
+    "tableName": "products",
+    "dynamodb": {
+      "ApproximateCreationDateTime": 1665116529584,
+      "Keys": { "PK": { "S": "10005" }, "SK": { "S": "5" } },
+      "NewImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "5" },
+        "PK": { "S": "10005" },
+        "name": { "S": "test5" },
+        "desc": { "S": "test desc 5" }
+      },
+      "OldImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "5" },
+        "PK": { "S": "10005" },
+        "name": { "S": "test5" },
+        "desc": { "S": "test desc 3" }
+      },
+      "SizeBytes": 164
+    },
+    "eventSource": "aws:dynamodb"
+  },
+  {
+    "awsRegion": "ap-southeast-1",
+    "eventID": "67f431a4-1bf9-4702-b376-8b8fa26d45bc",
+    "eventName": "INSERT",
+    "userIdentity": null,
+    "recordFormat": "application/json",
+    "tableName": "products",
+    "dynamodb": {
+      "ApproximateCreationDateTime": 1665116729744,
+      "Keys": { "PK": { "S": "10006" }, "SK": { "S": "6" } },
+      "NewImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "6" },
+        "PK": { "S": "10006" },
+        "name": { "S": "test5" },
+        "desc": { "S": "test desc 5" }
+      },
+      "SizeBytes": 87
+    },
+    "eventSource": "aws:dynamodb"
+  },
+  {
+    "awsRegion": "ap-southeast-1",
+    "eventID": "8d9f6883-de9e-40d7-af4c-37d1d7ac2705",
+    "eventName": "MODIFY",
+    "userIdentity": null,
+    "recordFormat": "application/json",
+    "tableName": "products",
+    "dynamodb": {
+      "ApproximateCreationDateTime": 1665117975255,
+      "Keys": { "PK": { "S": "10006" }, "SK": { "S": "6" } },
+      "NewImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "6" },
+        "PK": { "S": "10006" },
+        "name": { "S": "test6" },
+        "desc": { "S": "test desc 5" }
+      },
+      "OldImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "6" },
+        "PK": { "S": "10006" },
+        "name": { "S": "test5" },
+        "desc": { "S": "test desc 5" }
+      },
+      "SizeBytes": 164
+    },
+    "eventSource": "aws:dynamodb"
+  },
+  {
+    "awsRegion": "ap-southeast-1",
+    "eventID": "bf04a18c-4e31-4da1-a983-5ead5fea62a7",
+    "eventName": "MODIFY",
+    "userIdentity": null,
+    "recordFormat": "application/json",
+    "tableName": "products",
+    "dynamodb": {
+      "ApproximateCreationDateTime": 1665118804672,
+      "Keys": { "PK": { "S": "10006" }, "SK": { "S": "6" } },
+      "NewImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 3" }
+          }
+        },
+        "SK": { "S": "6" },
+        "PK": { "S": "10006" },
+        "name": { "S": "test6" },
+        "desc": { "S": "test desc 5" }
+      },
+      "OldImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "6" },
+        "PK": { "S": "10006" },
+        "name": { "S": "test6" },
+        "desc": { "S": "test desc 5" }
+      },
+      "SizeBytes": 164
+    },
+    "eventSource": "aws:dynamodb"
+  },
+  {
+    "awsRegion": "ap-southeast-1",
+    "eventID": "5cd20b1b-692d-40f7-bf16-09a8fc9d90d8",
+    "eventName": "INSERT",
+    "userIdentity": null,
+    "recordFormat": "application/json",
+    "tableName": "products",
+    "dynamodb": {
+      "ApproximateCreationDateTime": 1665119114391,
+      "Keys": { "PK": { "S": "10007" }, "SK": { "S": "7" } },
+      "NewImage": {
+        "metadata": {
+          "M": {
+            "key1": { "S": "key value 1" },
+            "key2": { "S": "key value 2" }
+          }
+        },
+        "SK": { "S": "7" },
+        "PK": { "S": "10007" },
+        "name": { "S": "test7" },
+        "desc": { "S": "test desc 7" }
+      },
+      "SizeBytes": 87
+    },
+    "eventSource": "aws:dynamodb"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "StreamName": "product-stream-receiver",
+  "Records": [
+    {
+      "Data": "{\"metadata\":{\"key1\":\"key value 1\",\"key2\":\"key value 2\"},\"SK\":\"4\",\"PK\":\"10004\",\"name\":\"test3\",\"desc\":\"test desc 3\"}",
+      "PartitionKey": "10004"
+    },
+    {
+      "Data": "{\"metadata\":{\"key1\":\"key value 1\",\"key2\":\"key value 2\"},\"SK\":\"4\",\"PK\":\"10004\",\"name\":\"test4\",\"desc\":\"test desc 3\"}",
+      "PartitionKey": "10004"
+    },
+    {
+      "Data": "{\"metadata\":{\"key1\":\"key value 1\",\"key2\":\"key value 2\"},\"SK\":\"5\",\"PK\":\"10005\",\"name\":\"test4\",\"desc\":\"test desc 3\"}",
+      "PartitionKey": "10005"
+    },
+    {
+      "Data": "{\"metadata\":{\"key1\":\"key value 1\",\"key2\":\"key value 2\"},\"SK\":\"5\",\"PK\":\"10005\",\"name\":\"test5\",\"desc\":\"test desc 3\"}",
+      "PartitionKey": "10005"
+    },
+    {
+      "Data": "{\"metadata\":{\"key1\":\"key value 1\",\"key2\":\"key value 2\"},\"SK\":\"5\",\"PK\":\"10005\",\"name\":\"test5\",\"desc\":\"test desc 5\"}",
+      "PartitionKey": "10005"
+    },
+    {
+      "Data": "{\"metadata\":{\"key1\":\"key value 1\",\"key2\":\"key value 2\"},\"SK\":\"6\",\"PK\":\"10006\",\"name\":\"test5\",\"desc\":\"test desc 5\"}",
+      "PartitionKey": "10006"
+    },
+    {
+      "Data": "{\"metadata\":{\"key1\":\"key value 1\",\"key2\":\"key value 2\"},\"SK\":\"6\",\"PK\":\"10006\",\"name\":\"test6\",\"desc\":\"test desc 5\"}",
+      "PartitionKey": "10006"
+    },
+    {
+      "Data": "{\"metadata\":{\"key1\":\"key value 1\",\"key2\":\"key value 2\"},\"SK\":\"7\",\"PK\":\"10007\",\"name\":\"test7\",\"desc\":\"test desc 7\"}",
+      "PartitionKey": "10007"
+    }
+  ]
+}
